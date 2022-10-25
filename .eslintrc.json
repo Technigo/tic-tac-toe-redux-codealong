@@ -1,5 +1,5 @@
 {
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "extends": [
     "airbnb"
   ],
@@ -107,6 +107,7 @@
     "react/no-did-mount-set-state": "error",
     "react/no-did-update-set-state": "error",
     "react/no-direct-mutation-state": "error",
+    "react/function-component-definition": "off",
     "react/no-multi-comp": [
       "error",
       {
